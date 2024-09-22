@@ -1,0 +1,16 @@
+stages:
+  - deploy
+
+deploy-job:
+  tags:
+    - "server"
+  stage: deploy
+  image: kroniak/ssh-client
+  script:
+    - echo "Deploy"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - echo "$SSH_ROOT_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh $SSH_ROOT_USER@$VM_IPADDRESS "bash && cd /var/www/dc/laravel && git pull && composer install && php artisan migrate --force"
