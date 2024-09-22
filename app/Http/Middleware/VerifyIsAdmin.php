@@ -22,7 +22,11 @@ class VerifyIsAdmin
         {
             return $next($request);
         } else {
+<<<<<<< HEAD
             return redirect('/home');
+=======
+            return redirect('/roof');
+>>>>>>> origin/main
         }
 
 

@@ -6,5 +6,9 @@
             ])
         }}
     >
+<<<<<<< HEAD
+=======
+        <img src="{{ asset('roof.jpeg') }}" alt="Logo" class="h-10">
+>>>>>>> origin/main
     </div>
 @endif

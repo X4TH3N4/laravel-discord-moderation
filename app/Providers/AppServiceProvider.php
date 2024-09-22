@@ -66,10 +66,17 @@ class AppServiceProvider extends ServiceProvider
             $panelSwitch
             ->simple()
                 ->labels([
+<<<<<<< HEAD
                     'home' => 'Ana Menü',
                     'admin' => 'Yönetim Menüsü'
                 ])->icons([
                 'home' => 'heroicon-m-shield-exclamation',
+=======
+                    'roof' => 'Ana Menü',
+                    'admin' => 'Yönetim Menüsü'
+                ])->icons([
+                'roof' => 'heroicon-m-shield-exclamation',
+>>>>>>> origin/main
                 'admin' => 'heroicon-m-user-circle',
             ]);
         });

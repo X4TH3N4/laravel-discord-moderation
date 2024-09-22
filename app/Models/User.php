@@ -3,7 +3,11 @@
 namespace App\Models;
 
 use Althinect\FilamentSpatieRolesPermissions\Concerns\HasSuperAdmin;
+<<<<<<< HEAD
 use App\Filament\Home\Resources\GuildRoleResource\Pages\ListGuildRoles;
+=======
+use App\Filament\Roof\Resources\GuildRoleResource\Pages\ListGuildRoles;
+>>>>>>> origin/main
 use App\Observers\UserObserver;
 use Exception;
 use Filament\Models\Contracts\FilamentUser;

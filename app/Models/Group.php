@@ -2,7 +2,11 @@
 
 namespace App\Models;
 
+<<<<<<< HEAD
 use App\Filament\Home\Resources\CategoryResource;
+=======
+use App\Filament\Roof\Resources\CategoryResource;
+>>>>>>> origin/main
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
