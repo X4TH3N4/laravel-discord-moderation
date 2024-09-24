@@ -170,7 +170,7 @@ return [
 <<<<<<< HEAD
         App\Providers\Filament\HomePanelProvider::class,
 =======
-        App\Providers\Filament\RoofPanelProvider::class,
+        App\Providers\Filament\HomePanelProvider::class,
 >>>>>>> origin/main
         App\Providers\Filament\AdminPanelProvider::class,
         App\Providers\RouteServiceProvider::class,

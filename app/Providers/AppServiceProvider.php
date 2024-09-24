@@ -72,10 +72,10 @@ class AppServiceProvider extends ServiceProvider
                 ])->icons([
                 'home' => 'heroicon-m-shield-exclamation',
 =======
-                    'roof' => 'Ana Menü',
+                    'home' => 'Ana Menü',
                     'admin' => 'Yönetim Menüsü'
                 ])->icons([
-                'roof' => 'heroicon-m-shield-exclamation',
+                'home' => 'heroicon-m-shield-exclamation',
 >>>>>>> origin/main
                 'admin' => 'heroicon-m-user-circle',
             ]);

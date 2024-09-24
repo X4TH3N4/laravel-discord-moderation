@@ -25,7 +25,7 @@ class VerifyIsAdmin
 <<<<<<< HEAD
             return redirect('/home');
 =======
-            return redirect('/roof');
+            return redirect('/home');
 >>>>>>> origin/main
         }
 

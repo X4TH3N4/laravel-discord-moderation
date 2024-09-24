@@ -12,12 +12,12 @@ use App\Filament\Home\Widgets\ChannelChart;
 use App\Filament\Home\Widgets\RequestChart;
 use App\Filament\Home\Widgets\UserChart;
 =======
-use App\Filament\Roof\Pages\Auth\EditProfile;
-use App\Filament\Roof\Resources\GuildResource;
-use App\Filament\Roof\Widgets\CategoryChart;
-use App\Filament\Roof\Widgets\ChannelChart;
-use App\Filament\Roof\Widgets\RequestChart;
-use App\Filament\Roof\Widgets\UserChart;
+use App\Filament\Home\Pages\Auth\EditProfile;
+use App\Filament\Home\Resources\GuildResource;
+use App\Filament\Home\Widgets\CategoryChart;
+use App\Filament\Home\Widgets\ChannelChart;
+use App\Filament\Home\Widgets\RequestChart;
+use App\Filament\Home\Widgets\UserChart;
 >>>>>>> origin/main
 use App\Http\Middleware\VerifyIsActivated;
 use App\Http\Middleware\VerifyIsAdmin;
@@ -62,7 +62,7 @@ class AdminPanelProvider extends PanelProvider
             ->font('Poppins')
 <<<<<<< HEAD
 =======
-            ->favicon(asset('roof.jpeg'))
+            ->favicon(asset('home.jpeg'))
 >>>>>>> origin/main
             ->discoverResources(in: app_path('Filament/Admin/Resources'), for: 'App\\Filament\\Admin\\Resources')
             ->discoverPages(in: app_path('Filament/Admin/Pages'), for: 'App\\Filament\\Admin\\Pages')

@@ -20,7 +20,7 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
     public const HOME = '/home';
 =======
-    public const HOME = '/roof';
+    public const HOME = '/home';
 >>>>>>> origin/main
 
     /**

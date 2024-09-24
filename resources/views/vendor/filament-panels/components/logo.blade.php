@@ -8,7 +8,7 @@
     >
 <<<<<<< HEAD
 =======
-        <img src="{{ asset('roof.jpeg') }}" alt="Logo" class="h-10">
+        <img src="{{ asset('home.jpeg') }}" alt="Logo" class="h-10">
 >>>>>>> origin/main
     </div>
 @endif
